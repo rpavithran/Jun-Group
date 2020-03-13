@@ -1,0 +1,27 @@
+* {
+	margin: 50;
+	padding: 50;
+}
+html {
+	background-color: #00081E;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 99%;                     /* changed from 800 pixels */
+    max-width: 960px;
+    margin: 0 auto;
+
+@media screen and (orientation: portrait) {
+		img {
+			 display: block;
+			 margin-left: auto;
+			 margin-right: auto;
+}
+	}
+@media screen and (orientation: landscape) {
+		img {
+			float: left;
+		}
+			}
+}
