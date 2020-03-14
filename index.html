@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Rhea Pavithran -->
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* social media buttons */
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                border-radius: 50%;
+                }
+            .fa:hover {
+                opacity: 0.7;
+                }
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+                }
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+                }
+            .fa-youtube {
+                background: #bb0000;
+                color: white;
+                }
+            
+            /* buttons */
+            a.button {
+                font-family: 'Cinzel', serif;
+                background-color: #74AE93; 
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                -webkit-transition-duration: 0.4s; 
+                transition-duration: 0.4s;
+                }
+                
+            button1 {
+                box-shadow: 0 8px 16px 0 rgba(255,255,255,0.9), 0 6px 20px 0 rgba(255,255,255,0.9);
+                }   
+            
+            header img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                padding:10px;
+            }
+            
+            /* glow */
+            .glow {
+                font-size: 30px;
+                color: #fff;
+                text-align: center;
+                 -webkit-animation: glow 1s ease-in-out infinite alternate;
+                 -moz-animation: glow 1s ease-in-out infinite alternate;
+                 animation: glow 1s ease-in-out infinite alternate;
+                }
+
+            @-webkit-keyframes glow {
+                from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #9BE7CE, 0 0 40px #9BE7CE, 0 0 50px #9BE7CE, 0 0 60px #9BE7CE, 0 0 70px #9BE7CE;
+                }
+  
+                to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #A5E0D0, 0 0 40px #A5E0D0, 0 0 50px #A5E0D0, 0 0 60px #A5E0D0, 0 0 70px #A5E0D0, 0 0 80px #A5E0D0;
+                 }
+            
+            /* text specifications */
+            body {
+                text-align: center;
+                color: white;
+                height: 400px;
+                width: 100%;
+                line-height: 200px;
+                font-family: 'Montserrat';
+            }
+            
+            h2 {
+                text-align: center;
+                color: white;
+                height: 200px;
+                width: 100%;
+                line-height: 200px;
+                font-family: 'Montserrat';
+            }
+            
+
+            @media screen and (orientation: portrait) {
+                img {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    position: relative;
+                    top: 50px;
+                    }
+                }
+            @media screen and (orientation: landscape) {
+            }
+            
+        </style>
+        <link rel="stylesheet" href="main.css">
+        <title> Taco Bell $1 Cravings Menu </title>
+    </head>
+    <body>
+        <header>
+            <img src = "images/logo.png" alt = "logo" id = "logo"
+            align = "top" HSPACE = "50" VSPACE = "50" style = "width:150px;height:163px;">
+            <h3> Mo Money, Mo Problems. That's why we made it easy for you. </h3>
+            <h3> 20 menu items, from breakfast to late night, all for a dollar on our Dollar Cravings Menu. </h3><br>
+            <h1 class = "glow"> Experience the power of the dollar at Taco Bell. </h1><br>
+        </header>
+        <a href = "https://www.tacobell.com/locations" class = "button button1">Find the nearest Taco Bell</a>
+        <a href = "https://www.tacobell.com/delivery" class = "button button1">Order Online</a><br><br><br>
+        
+        <a href="https://www.facebook.com/tacobell/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/tacobell?s=20" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/user/tacobell" class="fa fa-youtube"></a>
+    </body>
+    
+    
+</html>
